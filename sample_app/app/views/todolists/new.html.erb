@@ -1,0 +1,8 @@
+<h1>新規投稿</h1>
+<%= form_for(@list, url: '/todolists') do |f| %>
+  <%= f.label :title, "タイトル" %><br>
+  <%= f.text_field :title %><br>
+  <%= f.label :body, "本文" %><br>
+  <%= f.text_area :body %><br>
+  <%= f.submit "投稿", disable_with: '投稿ing...' %>
+<% end %>

@@ -4,5 +4,7 @@
   <%= f.text_field :title %><br>
   <%= f.label :body, "本文" %><br>
   <%= f.text_area :body %><br>
+  <%= f.label :image, "画像" %><br>
+  <%= f.attachment_field :image %><br>  
   <%= f.submit "投稿", disable_with: '投稿ing...' %>
 <% end %>

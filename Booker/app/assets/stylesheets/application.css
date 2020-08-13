@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+}
+
+.error_titile {
+  color: white;
+  background-color: red;
+}
+
+.error_list ul li {
+  list-style: none;
+}
+
+.error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.notice {
+  color: green;
+}
